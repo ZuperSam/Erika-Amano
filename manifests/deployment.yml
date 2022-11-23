@@ -1,0 +1,19 @@
+apiVersion : apps/v1
+kind: Deployment
+metadata:
+  name: "kmac-efca"
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: "kmac-efca"
+  template:
+    metadata:
+      labels:
+        app: "kmac-efca"
+    spec:
+      containers:
+        - name: "kmac-efca"
+          image: "darkencode.azurecr.io/kmac"
+          ports:
+          - containerPort: 80
