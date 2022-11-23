@@ -11,7 +11,7 @@ LOG.setLevel(level=logging.INFO)
 #<-----------Variables-------------->
 LOG.info('❤️ Checking Bot Variables.....')
 TRIGGERS = os.environ.get("TRIGGERS", "/ !").split(" ")
-BOT_TOKEN = os.environ.get('BOT_TOKEN', '5562438875:AAHKfFy6PdRkrEBqlt6w2mqghtlOKB19kSo') #BOT Token Add
+BOT_TOKEN = os.environ.get('BOT_TOKEN', '2142121844:AAHgOTKyolhWoifjNGi5lh3j8-VZkeBZrHg') #BOT Token Add
 API_ID = int(os.environ.get('API_ID', 8978848)) #Telgram Api id
 APP_HASH = os.environ.get('APP_HASH', '24ce3cff2d32cf529df1c0018e28d6cf')# Telgram App hash  
 OWNER_ID = int(os.environ.get('OWNER_ID', 1995886602))
